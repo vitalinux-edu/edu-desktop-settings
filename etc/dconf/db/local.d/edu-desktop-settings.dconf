@@ -9,9 +9,9 @@ show-week-numbers=false
 time-format='custom'
 
 
-[org/gnome/nautilus/preferences]
+# [org/gnome/nautilus/preferences]
 # permisos avanzados para Nautilus
-show-advanced-permissions=true
+# show-advanced-permissions=true
 
 # doble click para abrir archivos en Nautilus
 click-policy='double'
@@ -21,7 +21,7 @@ executable-text-activation='display'
 
 
 [org/gnome/nautilus/desktop]
-home-icon-name='Mis cosas'
+home-icon-name='Carpeta personal'
 home-icon-visible=true
 trash-icon-name='Papelera'
 trash-icon-visible=false
@@ -41,7 +41,7 @@ document-font-name='Ubuntu 10'
 font-name='Ubuntu 10'
 gtk-color-scheme='fg_color:#101010101010\nbg_color:#efefefefeaea\ntext_color:#1a1a1a1a1a1a\nbase_color:#ffffffffffff\nselected_fg_color:#1a1a1a1a1a1a\nselected_bg_color:#dfdf01010101\ntooltip_fg_color:#000000000000\ntooltip_bg_color:#f5f5f5f5d5d5'
 gtk-theme='VitalinuxEdu'
-icon-theme='GartoonRedux'
+# icon-theme='GartoonRedux'
 monospace-font-name='Monospace 10'
 text-scaling-factor=1.0
 toolkit-accessibility=true
@@ -58,11 +58,11 @@ automount-open=true
 panel-run-dialog=['<Alt>F2']
 
 
-[org/gnome/desktop/background]
-color-shading-type='solid'
-picture-options='zoom'
-picture-uri='file:///usr/share/pixmaps/edu-desktop-wallpapers/GNUTECH-Babytux_Blue-1280x960.png'
-primary-color='#68684b4b3333'
+# [org/gnome/desktop/background]
+# color-shading-type='solid'
+# picture-options='zoom'
+# picture-uri='file:///usr/share/pixmaps/edu-desktop-wallpapers/GNUTECH-Babytux_Blue-1280x960.png'
+# primary-color='#68684b4b3333'
 
 
 [org/gnome/desktop/wm/preferences]
@@ -80,7 +80,8 @@ start-with-status-bar=true
 
 
 [org/gnome/gnome-panel/layout]
-object-id-list=['object-0-0', 'object-0-1', 'object-0-2', 'object-0-3', 'object-0-4', 'object-0-5', 'object-0-6', 'object-0-7', 'object-0-8', 'object-0-9', 'object-0-10', 'object-0-12', 'object-0-13', 'object-0-14', 'object-0-16', 'object-0-17', 'object-0-11']
+object-id-list=['object-0-0', 'object-0-1', 'object-0-2', 'object-0-3', 'object-0-4', 'object-0-5', 'object-0-6', 'object-0-8', 'object-0-9', 'object-0-10', 'object-0-12', 'object-0-13', 'object-0-14', 'object-0-16', 'object-0-17', 'object-0-11']
+# object-id-list=['object-0-0', 'object-0-1', 'object-0-2', 'object-0-3', 'object-0-4', 'object-0-5', 'object-0-6', 'object-0-7', 'object-0-8', 'object-0-9', 'object-0-10', 'object-0-12', 'object-0-13', 'object-0-14', 'object-0-16', 'object-0-17', 'object-0-11']
 toplevel-id-list=['top-panel-0']
 
 [org/gnome/gnome-panel/layout/objects/object-0-0/instance-config]
@@ -176,8 +177,8 @@ pack-index=1
 pack-type='end'
 toplevel-id='top-panel-0'
 
-[org/gnome/gnome-panel/layout/objects/object-0-7/instance-config]
-location='/usr/share/applications/gcompris.desktop'
+# [org/gnome/gnome-panel/layout/objects/object-0-7/instance-config]
+# location='/usr/share/applications/gcompris.desktop'
 
 [org/gnome/gnome-panel/layout/objects/object-0-7]
 object-iid='PanelInternalFactory::Launcher'
