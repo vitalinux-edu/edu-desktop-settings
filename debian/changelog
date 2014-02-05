@@ -1,9 +1,14 @@
 edu-desktop-settings (1.1-1) unstable; urgency=low
 
+  * Closes vitalinux-edu/edu-desktop-settings/Issues#1
+  * Closes vitalinux-edu/edu-desktop-settings/Issues#2
+  * Closes vitalinux-edu/edu-desktop-settings/Issues#3
+
+ -- Jose Luis Murillo <joseluismurillogarcia@gmail.com>  Wen, 5 Feb 2014 10:17:21 +0200
+
+edu-desktop-settings (1.0-1) unstable; urgency=low
+
   * Closes vitalinux/Issues#5
   * Closes vitalinux/Issues#6
-  * Closes vitalinux-edu/Issues#1
-  * Closes vitalinux-edu/Issues#2
-  * Closes vitalinux-edu/Issues#3
 
  -- Jose Antonio Chavarría <jachavar@gmail.com>  Sat, 11 Jan 2014 10:17:21 +0200
