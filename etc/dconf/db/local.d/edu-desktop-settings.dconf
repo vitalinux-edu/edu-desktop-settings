@@ -40,6 +40,20 @@ theme='VitalinuxEdu'
 titlebar-font='Ubuntu Bold 10'
 visual-bell=false
 
+[org/gnome/gedit/plugins]
+# añadido el complemento para ordenar
+active-plugins=['zeitgeistplugin', 'time', 'spell', 'sort', 'modelines', 'filebrowser', 'docinfo']
+
+[org/gnome/gedit/plugins/filebrowser/nautilus]
+# activada la posibilidad de eliminar directamente
+enable-delete=true
+
+[org/gnome/gedit/preferences/editor]
+# gedit no hace copia de fondo mientras se edita
+create-backup-copy=false
+# muestra el número de cada línea
+display-line-numbers=true
+
 [org/gnome/nautilus/desktop]
 home-icon-name='Carpeta personal'
 home-icon-visible=true
