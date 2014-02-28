@@ -1,3 +1,9 @@
+edu-desktop-settings (1.2-1) unstable; urgency=low
+
+  * No había Issues. Cambios en diversos ajustes de configuración de Nautilus y del desktop
+
+ -- Jose Luis Murillo <joseluismurillogarcia@gmail.com>  Wen, 28 Feb 2014 10:17:21 +0200
+
 edu-desktop-settings (1.1-1) unstable; urgency=low
 
   * Closes vitalinux-edu/edu-desktop-settings/Issues#1

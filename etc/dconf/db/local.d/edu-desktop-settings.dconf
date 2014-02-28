@@ -8,29 +8,67 @@ show-seconds=false
 show-week-numbers=false
 time-format='custom'
 
+# [org/gnome/desktop/background]
+# color-shading-type='solid'
+# picture-options='zoom'
+# picture-uri='file:///usr/share/pixmaps/edu-desktop-wallpapers/GNUTECH-Babytux_Blue-1280x960.png'
+# primary-color='#68684b4b3333'
 
-# [org/gnome/nautilus/preferences]
-# permisos avanzados para Nautilus
-# show-advanced-permissions=true
+[org/gnome/desktop/interface]
+# iconos para los botones
+buttons-have-icons=true
 
-# doble click para abrir archivos en Nautilus
-click-policy='double'
+[org/gnome/desktop/media-handling]
+# no abre la ventana de los dispositivos insertados
+automount-open=false
 
-# mostrar los archivos ejecutables de texto
-executable-text-activation='display'
+[org/gnome/desktop/screensaver]
+# no bloquea el ordenador después de un tiempo de inactividad
+lock-enabled=false
+# no bloquea el ordenador después de una suspensión
+ubuntu-lock-on-suspend=false
 
+[org/gnome/desktop/wm/keybindings]
+panel-run-dialog=['<Alt>F2']
+
+[org/gnome/desktop/wm/preferences]
+action-double-click-titlebar='toggle-shade'
+button-layout='menu:minimize,maximize,spacer,close'
+disable-workarounds=false
+num-workspaces=1
+theme='VitalinuxEdu'
+titlebar-font='Ubuntu Bold 10'
+visual-bell=false
 
 [org/gnome/nautilus/desktop]
 home-icon-name='Carpeta personal'
 home-icon-visible=true
 trash-icon-name='Papelera'
 trash-icon-visible=false
+# mostrar dispositivos en el escritorio
 volumes-visible=true
 
+[org/gnome/nautilus/icon-view]
+# nivel de ampliación de los iconos en 100%
+default-zoom-level='standard'
+# no mostrar etiquetas bajo los iconos
+labels-beside-icons=false
 
-[org/gnome/desktop/interface]
-# iconos para los botones
-buttons-have-icons=true
+# [org/gnome/nautilus/preferences]
+# no mostrar permisos avanzados para Nautilus
+show-advanced-permissions=false
+# mostrar elementos de todas las carpetas, no solo locales
+show-directory-item-counts='always'
+# muestra siempre vista previa de texto en el icono
+show-icon-text='always'
+# muestra siempre vista previa de imagen en el icono
+show-icon-thumbnails='always'
+
+# doble click para abrir archivos en Nautilus
+click-policy='double'
+
+# mostrar los archivos ejecutables de texto
+executable-text-activation='display'
 
 # iconos para los menús contextuales
 menus-have-icons=true
@@ -48,36 +86,8 @@ toolkit-accessibility=true
 
 ubuntu-overlay-scrollbars=false
 
-
-[org/gnome/desktop/media-handling]
-# lanzar nautilus cuando se automonte algún dispositivo
-automount-open=true
-
-
-[org/gnome/desktop/wm/keybindings]
-panel-run-dialog=['<Alt>F2']
-
-
-# [org/gnome/desktop/background]
-# color-shading-type='solid'
-# picture-options='zoom'
-# picture-uri='file:///usr/share/pixmaps/edu-desktop-wallpapers/GNUTECH-Babytux_Blue-1280x960.png'
-# primary-color='#68684b4b3333'
-
-
-[org/gnome/desktop/wm/preferences]
-action-double-click-titlebar='toggle-shade'
-button-layout='menu:minimize,maximize,spacer,close'
-disable-workarounds=false
-num-workspaces=1
-theme='VitalinuxEdu'
-titlebar-font='Ubuntu Bold 10'
-visual-bell=false
-
-
 [org/gnome/nautilus/window-state]
 start-with-status-bar=true
-
 
 [org/gnome/gnome-panel/layout]
 object-id-list=['object-0-0', 'object-0-1', 'object-0-2', 'object-0-3', 'object-0-4', 'object-0-5', 'object-0-6', 'object-0-8', 'object-0-9', 'object-0-10', 'object-0-12', 'object-0-13', 'object-0-14', 'object-0-16', 'object-0-17', 'object-0-11']
