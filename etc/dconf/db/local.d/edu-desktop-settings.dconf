@@ -1,5 +1,5 @@
 [com/canonical/indicator/datetime]
-custom-time-format='<sup><span font_desc="Ubuntu 14" color="#ff0000">%I:%M %p</span></sup>'
+custom-time-format='<sup><span font_desc="Ubuntu 14" color="#ffffff">%I:%M %p</span></sup>'
 show-calendar=true
 show-clock=true
 show-date=false
@@ -49,7 +49,8 @@ create-backup-copy=false
 display-line-numbers=true
 
 [org/gnome/nautilus/desktop]
-home-icon-name='Carpeta personal'
+computer-icon-visible=false
+home-icon-name='Mis archivos'
 home-icon-visible=true
 trash-icon-name='Papelera'
 trash-icon-visible=false
@@ -62,7 +63,7 @@ default-zoom-level='standard'
 # no mostrar etiquetas bajo los iconos
 labels-beside-icons=false
 
-# [org/gnome/nautilus/preferences]
+[org/gnome/nautilus/preferences]
 # no mostrar permisos avanzados para Nautilus
 show-advanced-permissions=false
 # mostrar elementos de todas las carpetas, no solo locales
@@ -71,23 +72,28 @@ show-directory-item-counts='always'
 show-icon-text='always'
 # muestra siempre vista previa de imagen en el icono
 show-icon-thumbnails='always'
-
 # doble click para abrir archivos en Nautilus
 click-policy='double'
-
 # mostrar los archivos ejecutables de texto
 executable-text-activation='display'
-
 # iconos para los menús contextuales
 menus-have-icons=true
 
+[org/gnome/desktop/background]
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/Precise_Pangolin_by_Vlad_Gerasimov.jpg'
+
+[org/gnome/desktop/interface]
 cursor-theme='DMZ-White'
-gtk-theme='Vitalinux'
-icon-theme='vitalinux'
+gtk-theme='VitalinuxEdu'
+icon-theme='vitalinux-edu'
 ubuntu-overlay-scrollbars=false
 
 [org/gnome/nautilus/window-state]
 start-with-status-bar=true
+
+[com/canonical/indicator/sound]
+visible=true
 
 [org/gnome/gnome-panel/layout]
 object-id-list=['object-0-0', 'object-0-1', 'object-0-2', 'object-0-3', 'object-0-4', 'object-0-5', 'object-0-6', 'object-0-8', 'object-0-9', 'object-0-10', 'object-0-12', 'object-0-13', 'object-0-14', 'object-0-16', 'object-0-17', 'object-0-11']

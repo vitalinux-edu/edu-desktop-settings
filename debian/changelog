@@ -1,20 +1,34 @@
-edu-desktop-settings (1.2-1) unstable; urgency=low
-
-  * No había Issues. Cambios en diversos ajustes de configuración de Nautilus y del desktop
-
- -- Jose Luis Murillo <joseluismurillogarcia@gmail.com>  Wen, 28 Feb 2014 10:17:21 +0200
-
-edu-desktop-settings (1.1-1) unstable; urgency=low
-
-  * Closes vitalinux-edu/edu-desktop-settings/Issues#1
-  * Closes vitalinux-edu/edu-desktop-settings/Issues#2
-  * Closes vitalinux-edu/edu-desktop-settings/Issues#3
-
- -- Jose Luis Murillo <joseluismurillogarcia@gmail.com>  Wen, 5 Feb 2014 10:17:21 +0200
-
 edu-desktop-settings (1.0-1) unstable; urgency=low
 
-  * Closes vitalinux/Issues#5
-  * Closes vitalinux/Issues#6
+  * Inicio del paquete partiendo del vx-desktop-settings de José Antonio Chavarría
 
- -- Jose Antonio Chavarría <jachavar@gmail.com>  Sat, 11 Jan 2014 10:17:21 +0200
+ -- José Luis Murillo García <joseluismurillogarcia@gmail.com>  Sat, 8 Mar 2014 11:16:40 +0200
+
+vx-desktop-settings (1.1-3) unstable; urgency=low
+
+  * Se corrige el fichero rules para que se genere el paquete con la totalidad
+    de los ficheros (closes #3).
+
+ -- Jose Antonio Chavarría <jachavar@gmail.com>  Sun, 29 Dec 2013 11:16:40 +0200
+
+vx-desktop-settings (1.1-2) unstable; urgency=low
+
+  * Se cambia el método de modificación de Gconf (issue #2).
+  * Se corrige el nombre del tema para Metacity (closes #2).
+
+ -- Jose Antonio Chavarría <jachavar@gmail.com>  Fri, 27 Dec 2013 18:55:32 +0200
+
+vx-desktop-settings (1.1-1) unstable; urgency=low
+
+  * Cambiado el fondo por el de Precise Pangolin (closes #1).
+  * Cambio de temas para Gtk y Metacity por modificación en
+    vitalinux/vx-desktop-theme#1.
+
+ -- Jose Antonio Chavarría <jachavar@gmail.com>  Thu, 26 Dec 2013 16:39:16 +0200
+
+vx-desktop-settings (1.0-1) unstable; urgency=low
+
+  * Se añade la capacidad de paquete virtual (vx-virtual-desktop-settings) para
+    que cada sabor o versión pueda personalizar este aspecto a su gusto.
+
+ -- Jose Antonio Chavarría <jachavar@gmail.com>  Fri, 6 Dec 2013 17:02:21 +0200
