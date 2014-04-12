@@ -30,7 +30,7 @@ action-double-click-titlebar='toggle-shade'
 button-layout='menu:minimize,maximize,spacer,close'
 disable-workarounds=false
 num-workspaces=1
-theme='VitalinuxEdu'
+theme='Vitalinux'
 titlebar-font='Ubuntu Bold 10'
 visual-bell=false
 
@@ -85,8 +85,8 @@ picture-uri='file:///usr/share/backgrounds/Precise_Pangolin_by_Vlad_Gerasimov.jp
 
 [org/gnome/desktop/interface]
 cursor-theme='DMZ-White'
-gtk-theme='VitalinuxEdu'
-icon-theme='vitalinux-edu'
+gtk-theme='Vitalinux'
+icon-theme='vitalinux'
 ubuntu-overlay-scrollbars=false
 
 [org/gnome/nautilus/window-state]
@@ -192,9 +192,6 @@ object-iid='PanelInternalFactory::Separator'
 pack-index=1
 pack-type='end'
 toplevel-id='top-panel-0'
-
-# [org/gnome/gnome-panel/layout/objects/object-0-7/instance-config]
-# location='/usr/share/applications/gcompris.desktop'
 
 [org/gnome/gnome-panel/layout/objects/object-0-7]
 object-iid='PanelInternalFactory::Launcher'
