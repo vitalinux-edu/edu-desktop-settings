@@ -11,6 +11,6 @@ Architecture: all
 Provides: vx-virtual-desktop-settings
 Conflicts: vx-virtual-desktop-settings
 Replaces: vx-virtual-desktop-settings
-Pre-Depends: vx-utils, vx-dconf-profile, edu-desktop-wallpapers, edu-desktop-icons, edu-desktop-theme
-Depends: ${misc:Depends}
+Pre-Depends: vx-utils, vx-dconf-profile
+Depends: ${misc:Depends}, edu-desktop-wallpapers
 Description: Gnome settings for Vitalinux Edu branding.
