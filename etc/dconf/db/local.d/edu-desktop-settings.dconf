@@ -86,7 +86,7 @@ picture-uri='file:///usr/share/backgrounds/Precise_Pangolin_by_Vlad_Gerasimov.jp
 [org/gnome/desktop/interface]
 cursor-theme='DMZ-White'
 gtk-theme='Vitalinux'
-icon-theme='vitalinux'
+icon-theme='vitalinux-edu'
 ubuntu-overlay-scrollbars=false
 
 [org/gnome/nautilus/window-state]
