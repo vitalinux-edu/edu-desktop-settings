@@ -1,3 +1,9 @@
+edu-desktop-settings (1.2-1) unstable; urgency=low
+
+  * Se añade como dependencia edu-desktop-icons
+
+ -- Jose Antonio Chavarría <jachavar@gmail.com>  Sat, 12 Apr 2014 17:31:40 +0200
+
 edu-desktop-settings (1.1-1) unstable; urgency=low
 
   * Se actualizan los settings del escritorio
