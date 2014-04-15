@@ -1,3 +1,9 @@
+edu-desktop-settings (1.2-3) unstable; urgency=low
+
+  * Se añade una llamada a dconf update en el purge del paquete.
+
+ -- Jose Antonio Chavarría <jachavar@gmail.com>  Tue, 15 Apr 2014 14:07:40 +0200
+
 edu-desktop-settings (1.2-2) unstable; urgency=low
 
   * Se cambian dependencias de edu-desktop-* a vx-desktop-*.
