@@ -64,16 +64,20 @@ default-zoom-level='standard'
 labels-beside-icons=false
 
 [org/gnome/nautilus/preferences]
+# doble click para abrir archivos en Nautilus
+click-policy='double'
 # no mostrar permisos avanzados para Nautilus
 show-advanced-permissions=false
+# activada la posibilidad de eliminar directamente los archivos
+enable-delete=true
+# mostrar los archivos ejecutables de texto
+executable-text-activation='display'
 # mostrar elementos de todas las carpetas, no solo locales
 show-directory-item-counts='always'
 # muestra siempre vista previa de texto en el icono
 show-icon-text='always'
 # muestra siempre vista previa de imagen en el icono
 show-icon-thumbnails='always'
-# doble click para abrir archivos en Nautilus
-click-policy='double'
 # mostrar los archivos ejecutables de texto
 executable-text-activation='display'
 # iconos para los menús contextuales
@@ -97,7 +101,7 @@ visible=true
 
 [org/gnome/gnome-panel/layout]
 object-id-list=['object-0-0', 'object-0-1', 'object-0-2', 'object-0-3', 'object-0-4', 'object-0-5', 'object-0-6', 'object-0-8', 'object-0-9', 'object-0-10', 'object-0-12', 'object-0-13', 'object-0-14', 'object-0-16', 'object-0-17', 'object-0-11']
-# object-id-list=['object-0-0', 'object-0-1', 'object-0-2', 'object-0-3', 'object-0-4', 'object-0-5', 'object-0-6', 'object-0-7', 'object-0-8', 'object-0-9', 'object-0-10', 'object-0-12', 'object-0-13', 'object-0-14', 'object-0-16', 'object-0-17', 'object-0-11']
+# object-id-list=['object-0-0', 'object-0-1', 'object-0-2', 'object-0-3', 'object-0-4', 'object-0-5', 'object-0-6', 'object-0-7', 'object-0-8', 'object-0-9', 'object-0-10', 'object-0-12', 'object-0-13', 'object-0-14', 'object-0-16', 'object-0-17', 'object-0-11', 'object-0-18']
 toplevel-id-list=['top-panel-0']
 
 [org/gnome/gnome-panel/layout/objects/object-0-0/instance-config]
@@ -214,6 +218,12 @@ location='/usr/share/applications/libreoffice-writer.desktop'
 [org/gnome/gnome-panel/layout/objects/object-0-9]
 object-iid='PanelInternalFactory::Launcher'
 pack-index=8
+pack-type='end'
+toplevel-id='top-panel-0'
+
+[org/gnome/gnome-panel/layout/objects/object-0-18]
+object-iid='PanelInternalFactory::Separator'
+pack-index=10
 pack-type='end'
 toplevel-id='top-panel-0'
 
