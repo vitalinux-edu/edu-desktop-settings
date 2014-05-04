@@ -1,2 +1,6 @@
 /apps/metacity/general/button_layout menu:minimize,maximize,spacer,close
 /apps/metacity/general/theme Vitalinux
+/apps/panel3-applets/object_0_12/show_date false
+/apps/panel3-applets/object_0_12/show_temperature false
+/apps/panel3-applets/object_0_12/show_weather false
+/apps/panel3-applets/object_0_12/show_week_numbers false
