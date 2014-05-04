@@ -1,3 +1,11 @@
+edu-desktop-settings (1.3-1) unstable; urgency=low
+
+  * Añadido un separador en el panel
+  * Activado eliminar en menú contextual
+  * Simplificado reloj del panel (no fecha, temperatura, tiempo ni num semana)
+
+ -- José Luis Murillo García <joseluismurillogarcia@gmail.com>  Tue, 4 May 2014 21:24:21 +0200
+
 edu-desktop-settings (1.2-3) unstable; urgency=low
 
   * Se añade una llamada a dconf update en el purge del paquete.
