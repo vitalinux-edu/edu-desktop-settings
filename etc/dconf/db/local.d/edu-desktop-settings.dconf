@@ -8,10 +8,6 @@ show-seconds=false
 show-week-numbers=false
 time-format='custom'
 
-[org/gnome/desktop/interface]
-# iconos para los botones
-buttons-have-icons=true
-
 [org/gnome/desktop/media-handling]
 # no abre la ventana de los dispositivos insertados
 automount-open=false
@@ -71,7 +67,7 @@ show-advanced-permissions=false
 # activada la posibilidad de eliminar directamente los archivos
 enable-delete=true
 # mostrar los archivos ejecutables de texto
-executable-text-activation='display'
+executable-text-activation='ask'
 # mostrar elementos de todas las carpetas, no solo locales
 show-directory-item-counts='always'
 # muestra siempre vista previa de texto en el icono
@@ -88,9 +84,11 @@ picture-options='zoom'
 picture-uri='file:///usr/share/backgrounds/Precise_Pangolin_by_Vlad_Gerasimov.jpg'
 
 [org/gnome/desktop/interface]
+buttons-have-icons=true
 cursor-theme='DMZ-White'
 gtk-theme='Vitalinux'
 icon-theme='vitalinux-edu'
+menus-have-icons=true
 ubuntu-overlay-scrollbars=false
 
 [org/gnome/nautilus/window-state]
@@ -100,8 +98,8 @@ start-with-status-bar=true
 visible=true
 
 [org/gnome/gnome-panel/layout]
-object-id-list=['object-0-0', 'object-0-1', 'object-0-2', 'object-0-3', 'object-0-4', 'object-0-5', 'object-0-6', 'object-0-8', 'object-0-9', 'object-0-10', 'object-0-12', 'object-0-13', 'object-0-14', 'object-0-16', 'object-0-17', 'object-0-11']
-# object-id-list=['object-0-0', 'object-0-1', 'object-0-2', 'object-0-3', 'object-0-4', 'object-0-5', 'object-0-6', 'object-0-7', 'object-0-8', 'object-0-9', 'object-0-10', 'object-0-12', 'object-0-13', 'object-0-14', 'object-0-16', 'object-0-17', 'object-0-11', 'object-0-18']
+object-id-list=['object-0-0', 'object-0-1', 'object-0-2', 'object-0-3', 'object-0-4', 'object-0-5', 'object-0-6', 'object-0-7', 'object-0-8', 'object-0-9', 'object-0-10', 'object-0-12', 'object-0-13', 'object-0-14', 'object-0-16', 'object-0-17', 'object-0-11']
+
 toplevel-id-list=['top-panel-0']
 
 [org/gnome/gnome-panel/layout/objects/object-0-0/instance-config]
@@ -197,18 +195,18 @@ pack-index=1
 pack-type='end'
 toplevel-id='top-panel-0'
 
-[org/gnome/gnome-panel/layout/objects/object-0-7]
-object-iid='PanelInternalFactory::Launcher'
-pack-index=10
-pack-type='end'
-toplevel-id='top-panel-0'
-
 [org/gnome/gnome-panel/layout/objects/object-0-8/instance-config]
 location='/usr/share/applications/gimp.desktop'
 
 [org/gnome/gnome-panel/layout/objects/object-0-8]
 object-iid='PanelInternalFactory::Launcher'
 pack-index=9
+pack-type='end'
+toplevel-id='top-panel-0'
+
+[org/gnome/gnome-panel/layout/objects/object-0-7]
+object-iid='PanelInternalFactory::Separator'
+pack-index=10
 pack-type='end'
 toplevel-id='top-panel-0'
 
